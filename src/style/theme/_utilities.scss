@@ -1,0 +1,24 @@
+body {
+    --bs-body-bg: #{$white};
+    --bs-body-color: #{$black};
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $yellow;
+}
+
+.text-warning {
+    color: $yellow!important;
+}
+
+.text-dark {
+    color: $black!important;
+}
+
+textarea {
+    resize: none;
+}

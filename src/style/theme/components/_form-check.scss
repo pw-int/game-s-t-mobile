@@ -1,0 +1,32 @@
+.checkbox .form-check-input[type=checkbox] {
+    border-radius: 0.188em;
+    border-color: $yellow;
+}
+
+.checkbox {
+    --bs-form-valid-color: #{$white};
+    .form-check-input {
+        width: 1.25em;
+        height: 1.25em;
+        border-color: $white;
+    }
+}
+
+.form-check-label {
+    line-height: 1.025;
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: none;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEwIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjczNDM4IDQuNzA5MjZMMy45MTg3MSA2Ljg0OTlMOC42MTUwMiAxLjQ5ODI5IiBzdHJva2U9IiNGRjFGOEEiIHN0cm9rZS13aWR0aD0iMS41MjkwMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=');
+    background-size: .5rem;
+}
+
+.form-check-input:checked {
+    background-color: $white;
+}
+
+.form-check-input.is-valid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    --bs-form-valid-color: #{$black};
+}
