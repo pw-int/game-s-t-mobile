@@ -1,0 +1,1 @@
+function openSidebarMenu(){$(".sidebar-nav").addClass("activeSidebar");$("sidebar-nav_close").removeClass("activeSidebar");$("html, body").css({overflow:"hidden",height:"100%"})}function closeSidebarMenu(){$(".sidebar-nav").removeClass("activeSidebar");$("html, body").css({overflow:"auto",height:"auto"})};
