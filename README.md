@@ -3,7 +3,7 @@
 Markup project created by figma design.
 
 
-Figma link [url](https://www.figma.com/file/WGzqu6VF2dAhjNu8ypvJf7/PL-T-Mobile-(Copy)?type=design&node-id=1-776&mode=design&t=CsYPcY6Nb2Dc1t8l-0 "Figma link")
+Figma link [url](https://www.figma.com/file/QYwKAQAwoG7fxvW6XRJj3M/PL-T-Mobile?type=design&node-id=1-776&mode=design&t=7CZA7GIedXAygiXN-0 "Figma link")
 
 Demo 3g link [url](https://pw-int.github.io/game-s-t-mobile/ "Demo 3g link")
 
