@@ -1,4 +1,4 @@
-### GameStore - [PL T-Mobile] HTML for DIMOCO ###
+### Playwing - [PL T-Mobile] HTML for DIMOCO ###
 
 Markup project created by figma design.
 
