@@ -11965,7 +11965,7 @@ textarea.form-control-lg {
 }
 
 body {
-  --bs-body-bg: #FFFFFF;
+  --bs-body-bg: #F6F6F6;
   --bs-body-color: #404040;
   margin: 0;
   padding: 0;
@@ -12044,7 +12044,7 @@ p {
 .main .banner .banner-block {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -3rem;
 }
 .main .banner .banner-block .banner-text {
   position: absolute;
