@@ -12007,7 +12007,30 @@ p {
 }
 .main .banner {
   position: relative;
-  height: 103vw;
+  height: 92vw;
+}
+.main .banner.banner-md {
+  height: 100vw;
+}
+@media (min-width: 576px) {
+  .main .banner.banner-md {
+    height: 87vw;
+  }
+}
+@media (min-width: 768px) {
+  .main .banner.banner-md {
+    height: 680px;
+  }
+}
+@media (min-width: 992px) {
+  .main .banner.banner-md {
+    height: 480px;
+  }
+}
+@media (min-width: 1200px) {
+  .main .banner.banner-md {
+    height: 580px;
+  }
 }
 @media (min-width: 576px) {
   .main .banner {
