@@ -14,7 +14,22 @@
     }
     .banner {
         position: relative;
-        height: 103vw;
+        height: 92vw;
+        &.banner-md {
+            height: 100vw;
+            @media (min-width: 576px) {
+                height: 87vw;
+            }
+            @media (min-width: 768px) {
+                height: 680px;
+            }
+            @media (min-width: 992px) {
+                height: 480px;
+            }
+            @media (min-width: 1200px) {
+                height: 580px;
+            }
+        }
         @media (min-width: 576px) {
             height: 87vw;
         }
